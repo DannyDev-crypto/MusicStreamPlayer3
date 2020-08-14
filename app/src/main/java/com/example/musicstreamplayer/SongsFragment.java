@@ -10,7 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.ArrayList;
+
 import static com.example.musicstreamplayer.MainActivity.musicFiles;
+import static com.example.musicstreamplayer.MusicAdapter.mFiles;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -20,7 +23,7 @@ import static com.example.musicstreamplayer.MainActivity.musicFiles;
 public class SongsFragment extends Fragment {
 
     RecyclerView recyclerView;
-    MusicAdapter musicAdapter;
+    static MusicAdapter musicAdapter;
     public SongsFragment() {
         // Required empty public constructor
     }
@@ -68,7 +71,7 @@ public class SongsFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_songs, container, false);
         recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
-        if(!(musicFiles.size()<1))
+        if(!(musicFiles.size() < 1))
         {
             musicAdapter = new MusicAdapter(getContext(), musicFiles);
             recyclerView.setAdapter(musicAdapter);
