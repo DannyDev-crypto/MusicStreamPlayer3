@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39578850889",
+    "firebase_url": "https://musicstreamplayer-ac0f2.firebaseio.com",
+    "project_id": "musicstreamplayer-ac0f2",
+    "storage_bucket": "musicstreamplayer-ac0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39578850889:android:12ceb1685c2ad7b7691198",
+        "android_client_info": {
+          "package_name": "com.example.musicstreamplayer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39578850889-jti7vu6arla9ps3vojj473gtaaudt4ni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.musicstreamplayer",
+            "certificate_hash": "1714e52f06f37465783cc57800c7a85ec89fecdd"
+          }
+        },
+        {
+          "client_id": "39578850889-e78rrivgr78tc8fh9n2gbi6fu5o1mmie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtP-6NRgBJbe6UySdnfztPARvH3m9UUhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39578850889-e78rrivgr78tc8fh9n2gbi6fu5o1mmie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
